@@ -1,0 +1,171 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("images/bg-intro-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(214, 114, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.app .app_div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 40%;
+}
+.app .app_div1 h1 {
+  font-size: 3em;
+}
+.app .app_div1 p {
+  font-size: 1.025em;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-top: 25px;
+  width: 90%;
+}
+.app .app_div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 35%;
+}
+.app .app_div2 button {
+  background-color: rgb(101, 12, 153);
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-size: 0.95em;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  border-radius: 7px;
+  box-shadow: 0px 8px 1px -2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 25px;
+  line-height: 25px;
+  padding: 15px 20px;
+}
+.app .app_div2 button span {
+  font-weight: 500;
+}
+.app .app_div2 .card {
+  background-color: #fff;
+  margin: 20px 0;
+  color: gray;
+  padding: 35px;
+  border-radius: 6px;
+}
+.app .app_div2 .card button {
+  background-color: rgb(80, 201, 116);
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  border-radius: 7px;
+  box-shadow: 0px 8px 1px -2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 25px;
+  line-height: 25px;
+  padding: 15px 20px;
+  width: 100%;
+  border: none;
+  color: #fff;
+}
+.app .app_div2 .card button span {
+  font-weight: 500;
+}
+.app .app_div2 .card .content_inputs {
+  position: relative;
+}
+.app .app_div2 .card .content_inputs .input {
+  width: 100%;
+  height: 50px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: gray;
+  padding: 0 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 22px;
+  outline-color: gray;
+}
+.app .app_div2 .card .content_inputs .inputErr {
+  width: 100%;
+  height: 50px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: rgb(214, 114, 130);
+  padding: 0 25px;
+  border-radius: 5px;
+  border: 2px solid rgb(214, 114, 130);
+  margin-top: 22px;
+  outline-color: rgb(214, 114, 130);
+}
+.app .app_div2 .card .content_inputs span {
+  display: block;
+  color: rgb(214, 114, 130);
+  font-size: 0.78em;
+  text-align: end;
+  margin-top: 5px;
+}
+.app .app_div2 .card .content_inputs svg {
+  position: absolute;
+  top: 35px;
+  right: 12px;
+}
+.app .app_div2 .card p {
+  font-size: 0.75em;
+  text-align: center;
+  color: rgb(184, 184, 184);
+  margin-top: 10px;
+}
+.app .app_div2 .card p span {
+  color: rgb(214, 114, 130);
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .app .app_div1 {
+    width: 45%;
+    padding: 25px 25px 0;
+  }
+  .app .app_div1 h1 {
+    font-size: 2.5em;
+  }
+  .app .app_div2 {
+    width: 45%;
+    padding: 30px;
+  }
+}
+@media (max-width: 1065px) {
+  .app {
+    flex-direction: column;
+  }
+  .app .app_div1 {
+    width: 100%;
+    max-width: 600px;
+  }
+  .app .app_div1 h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .app .app_div1 p {
+    text-align: center;
+    width: 100%;
+  }
+  .app .app_div2 {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
